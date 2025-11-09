@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Button } from "@/components/ui/button.jsx";
+import { Button } from "src/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card.jsx";
 import { Badge } from "@/components/ui/badge.jsx";
 import { 
@@ -1339,5 +1339,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
